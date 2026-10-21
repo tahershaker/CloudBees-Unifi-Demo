@@ -54,12 +54,12 @@ Some of them want technical detail. Others only want the business outcome.
 
 ## Their pain points
 
-**1. Teams operate differently.** With four CI/CD tools and 600+ teams, there is no common way to build, test, scan or release. Each team defines "done" in its own way. This makes quality uneven and makes it hard for cross-teams collaboration.
-**2. Releases need manual coordination.** A release across teams means chat threads, spreadsheets, meetings and sign-offs by hand. This is slow, and it depends on people remembering every step. In a bank, a missed step can become a compliance problem.
-**3. Compliance reporting is difficult.** The proof that a release followed the rules is spread across many tools. Someone has to collect it, and it is not in one format. When a regulator or an internal auditor asks "show me that this change was tested and approved", the answer takes long time and effort to build.
-**4. Audit preparation takes weeks.** This is the cost of the first three problems. Teams stop their work to collect evidence for an audit. That is lost engineering time, and it repeats on every audit cycle.
-**5. Leadership has little visibility.** The VP Engineering cannot easily answer simple questions. How fast do we deliver? Where are releases stuck? Which teams follow the standard? Without a single view across all the tools, decisions rely on reports that people build by hand.
-**6. Platform Engineering wants standardization without forcing a migration.** This one is a constraint, not only a pain. The platform team knows that telling 600 teams to leave Jenkins or GitLab will fail. The standard has to work with the tools that teams already use.
+- **1. Teams operate differently.** With four CI/CD tools and 600+ teams, there is no common way to build, test, scan or release. Each team defines "done" in its own way. This makes quality uneven and makes it hard for cross-teams collaboration.
+- **2. Releases need manual coordination.** A release across teams means chat threads, spreadsheets, meetings and sign-offs by hand. This is slow, and it depends on people remembering every step. In a bank, a missed step can become a compliance problem.
+- **3. Compliance reporting is difficult.** The proof that a release followed the rules is spread across many tools. Someone has to collect it, and it is not in one format. When a regulator or an internal auditor asks "show me that this change was tested and approved", the answer takes long time and effort to build.
+- **4. Audit preparation takes weeks.** This is the cost of the first three problems. Teams stop their work to collect evidence for an audit. That is lost engineering time, and it repeats on every audit cycle.
+- **5. Leadership has little visibility.** The VP Engineering cannot easily answer simple questions. How fast do we deliver? Where are releases stuck? Which teams follow the standard? Without a single view across all the tools, decisions rely on reports that people build by hand.
+- **6. Platform Engineering wants standardization without forcing a migration.** This one is a constraint, not only a pain. The platform team knows that telling 600 teams to leave Jenkins or GitLab will fail. The standard has to work with the tools that teams already use.
 
 ## What they are looking for
 
