@@ -425,14 +425,6 @@ The change is made in your fork of the application repository, `cloudbees-unify-
           echo "TALKING POINT: add a manual approval gate here in the CloudBees Unify Workflow Composer."
           echo "Suggested approvers: Release Manager, Security, Application Owner"
           echo "Approval: SIMULATED / APPROVED"
-      - name: Publish evidence
-        uses: https://github.com/cloudbees-io/publish-evidence-item@v1
-        with:
-          content: |-
-            ## Production approval
-            - Approvers: Release Manager, Security, Application Owner
-            - Change ticket: ${{ inputs.change_ticket }}
-            - Decision: **approved** (simulated for demo)
 ```
 
 2. Replace the whole job with the following. Change `<approver>` to the email address or user ID of the Unify user who will approve the release:
